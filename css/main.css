@@ -1,0 +1,36 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    background: #eaeaea;
+}
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 500px; 
+    margin-bottom: 5em;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.title{
+    color: var(--base);
+}
+
